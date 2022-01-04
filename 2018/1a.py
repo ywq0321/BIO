@@ -22,6 +22,7 @@ def bio1a(interest, repay):
 
 
 # auto check all test cases
+# note that this auto check can be inaccurate when dealing with trailing 0s. 
 with open('test1a.txt', 'r') as inputs:
     inputs = inputs.read().split('\n')
 
